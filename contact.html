@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Me</title>
+</head>
+<body>
+	<style type="text/css">
+		.contact{
+			color: gold;
+		}
+
+		body{
+   	background-color: #F5FFFA;
+        } 
+
+         a {
+  float: right; 
+  color: #FD1C03; 
+  margin-left: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+a:hover {
+  color: #17272B;
+  transform: scale(1.5);
+  }
+
+.contact-form-txt-name{
+   position: absolute; left: 30px; top: 50px;
+   font-family: cursive;
+   color: whitesmoke;
+   }
+
+   .contact-form-txt-email{
+   position: absolute; left: 30px; top: 90px;
+   font-family: cursive;
+   color: whitesmoke;
+   }
+
+   .contact-form-txt-discord{
+   position: absolute; left: 30px; top: 130px;
+   font-family: cursive;
+   color: whitesmoke;
+}
+
+  .contact-form-txt-phone{
+   position: absolute; left: 30px; top: 170px;
+   font-family: cursive;
+   color: whitesmoke;
+  }
+
+  .contact-form-txt-location{
+   position: absolute; left: 30px; top: 210px;
+   font-family: cursive;
+   color: whitesmoke;
+}
+
+   .contact-form-textarea{
+   	position: absolute; left: 30px; top: 290px;
+   font-family: cursive;
+   color: whitesmoke;
+   }
+
+    .contact-form-txt-gender{
+   	position: absolute; left: 30px; top: 250px;
+   font-family: cursive;
+   color: whitesmoke;
+   }
+
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+	background-color: black;
+  width: 250px;
+  }
+
+  textarea:focus{
+  	background-color: black;
+  }
+
+button{
+	position: absolute; left: 50px; top: 350px;
+	background-color: black;
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: cursive;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submitbtn:hover {
+   transform: scale(0.8);
+ }
+
+ .facebook{
+ 	position: absolute; right: 30px; top: 50px;
+ }
+
+ .myinfo{
+ 	position: absolute; right: 30px; top: 90px; 
+ 	font-family: Bahnschrift Light;
+ }
+
+	</style>
+
+        <nav class="navbar navbar-expand-lg navbar-black bg-light">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+
+        <a class="about" href="about.html">About</a> 
+        <a class="bio" href="bio.html">Bio</a>
+        <a class="contact" href="contact.html">Contact</a>
+        <a class="home" href="index.html">Home</a>
+        <a class="facebook" href="https://www.facebook.com/linn.lett.3133">Add me on Facebook</a>
+
+    </div>
+</div>
+
+</div>
+</nav>
+
+<input type="text" placeholder="Name" class="contact-form-txt-name"> <br> <br>
+    <input type="text" placeholder="Email" class="contact-form-txt-email"> <br> <br>
+    <input type="text" placeholder="Discord id & tag" class="contact-form-txt-discord"> <br> <br>
+    <input type="text" placeholder="Phone number" class="contact-form-txt-phone"> <br> <br>
+    <input type="text" placeholder="Location" class="contact-form-txt-location"> <br> <br>
+    <input type="text" placeholder="Gender" class="contact-form-txt-gender"> <br> <br>
+    
+
+    <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+
+
+<p class="myinfo">Discord : Mɪɴᴀᴛᴏ.#3610 <br>
+	  Phone Number : 09443244001 <br>
+	  Location : Yangon, Myanmar <br>
+	  Gender : Male
+ </p>
+
+    <button type="submitbtn" class="submitbtn">Submit!</button>
+
+
+    
+</body>
+</html>
